@@ -2,9 +2,14 @@
 <html lang="utf-8">
 
 <head>
-	<title>Học Tập Và Ôn Thi</title>
 
-	<!-- <script>
+<title>Học Tập Và Ôn Thi</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+	/>
+	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
 		}, false);
@@ -12,16 +17,19 @@
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
-	</script> -->
+	</script>
 	<!-- //Meta tag Keywords -->
-	<link rel="stylesheet" href="Css/bootstrap.css">
-	<link rel="stylesheet" href="Css/creditly.css">
-	<link rel="stylesheet" href="Css/easy-responsive-tabs.css">
-	<link rel="stylesheet" href="Css/flexslider.css">
-	<link rel="stylesheet" href="Css/fontawesome-all.css">
-	<link rel="stylesheet" href="Css/menu.css">
-	<link rel="stylesheet" href="Css/popuo-box.css">
-	<link rel="stylesheet" href="Css/style.css">
+
+	<!-- Custom-Files -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Bootstrap css -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Main css -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- pop-up-box -->
+	<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- menu style -->
 	<!-- //Custom-Files -->
 
@@ -30,6 +38,8 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
 	    rel="stylesheet">
 	<!-- //web fonts -->
+
+
 
 </head>
 
@@ -162,7 +172,7 @@
 						<!-- search -->
 						<div class="col-10 agileits_search">
 							<form class="form-inline" action="#" method="post">
-								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" required>
+								<input class="form-control mr-sm-2" type="search" placeholder="Nhập từ khóa cần tìm..." aria-label="Search" required>
 								<button class="btn my-2 my-sm-0" type="submit">Search</button>
 							</form>
 						</div>
@@ -229,10 +239,10 @@
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product.html">All Mobile Phones</a>
+													<a href="product.php">All Mobile Phones</a>
 												</li>
 												<li>
-													<a href="product.html">All Mobile Accessories</a>
+													<a href="product.php">All Mobile Accessories</a>
 												</li>
 											
 											</ul>
@@ -240,10 +250,10 @@
 										<div class="col-sm-6 multi-gd-img">
 											<ul class="multi-column-dropdown">
 												<li>
-													<a href="product.html">Laptops</a>
+													<a href="product.php">Laptops</a>
 												</li>
 												<li>
-													<a href="product.html">Drives & Storage</a>
+													<a href="product.php">Drives & Storage</a>
 												</li>
 											
 											</ul>
@@ -313,14 +323,14 @@
 							<a class="nav-link" href="about.html">Khóa Học</a>
 						</li>
 						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link" href="product.html">Phần Mềm</a>
+							<a class="nav-link" href="product.php">Phần Mềm</a>
 						</li>
 						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Luận Văn
 							</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="product.html">Product 1</a>
+								<a class="dropdown-item" href="product.php">Product 1</a>
 								<a class="dropdown-item" href="product2.html">Product 2</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="single.html">Single Product 1</a>
@@ -360,7 +370,7 @@
 								<span>Big</span>
 								Sale
 							</h3>
-							<a class="button2" href="product.html">Shop Now </a>
+							<a class="button2" href="product.php">Shop Now </a>
 						</div>
 					</div>
 				</div>
@@ -405,7 +415,7 @@
 					<div class="wrapper">
 						<!-- first section -->
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-							<h3 class="heading-tittle text-center font-italic">New Brand Mobiles</h3>
+							<h3 class="heading-tittle text-center font-italic">Nổi Bật Với Nhiều Lượt Mua</h3>
 							<div class="row">
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
@@ -442,8 +452,61 @@
 												</form>
 											</div>
 										</div>
+
+
+									
 									</div>
 								</div>
+
+<!-- hoang -->
+
+<div class="col-md-4 product-men mt-5">
+									<div class="men-pro-item simpleCart_shelfItem">
+										<div class="men-thumb-item text-center">
+											<img src="images/m1.jpg" alt="">
+											<div class="men-cart-pro">
+												<div class="inner-men-cart-pro">
+													<a href="single.html" class="link-product-add-cart">Quick View</a>
+												</div>
+											</div>
+										</div>
+										<div class="item-info-product text-center border-top mt-4">
+											<h4 class="pt-1">
+												<a href="single.html">Samsung Galaxy J7</a>
+											</h4>
+											<div class="info-product-price my-2">
+												<span class="item_price">$200.00</span>
+												<del>$280.00</del>
+											</div>
+											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+												<form action="#" method="post">
+													<fieldset>
+														<input type="hidden" name="cmd" value="_cart" />
+														<input type="hidden" name="add" value="1" />
+														<input type="hidden" name="business" value=" " />
+														<input type="hidden" name="item_name" value="Samsung Galaxy J7" />
+														<input type="hidden" name="amount" value="200.00" />
+														<input type="hidden" name="discount_amount" value="1.00" />
+														<input type="hidden" name="currency_code" value="USD" />
+														<input type="hidden" name="return" value=" " />
+														<input type="hidden" name="cancel_return" value=" " />
+														<input type="submit" name="submit" value="Add to cart" class="button btn" />
+													</fieldset>
+												</form>
+											</div>
+										</div>
+
+
+									
+									</div>
+								</div>
+
+
+
+
+
+
+<!-- andhoang -->
 								<div class="col-md-4 product-men mt-5">
 									<div class="men-pro-item simpleCart_shelfItem">
 										<div class="men-thumb-item text-center">
@@ -526,249 +589,7 @@
 							</div>
 						</div>
 						<!-- //first section -->
-						<!-- second section -->
-						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-							<h3 class="heading-tittle text-center font-italic">Tv & Audio</h3>
-							<div class="row">
-								<div class="col-md-4 product-men mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="images/m4.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single.html">Sony 80 cm (32 inches)</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$320.00</span>
-												<del>$340.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Sony 80 cm (32 inches)" />
-														<input type="hidden" name="amount" value="320.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="images/m5.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
-												</div>
-											</div>
-											<span class="product-new-top">New</span>
 
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single.html">Artis Speaker</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$349.00</span>
-												<del>$399.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Artis Speaker" />
-														<input type="hidden" name="amount" value="349.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="images/m6.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single.html">Philips Speakers</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$249.00</span>
-												<del>$300.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Philips Speakers" />
-														<input type="hidden" name="amount" value="249.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- //second section -->
-						
-						<!-- fourth section -->
-						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
-							<h3 class="heading-tittle text-center font-italic">Large Appliances</h3>
-							<div class="row">
-								<div class="col-md-4 product-men mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="images/m7.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
-												</div>
-											</div>
-										</div>
-										<span class="product-new-top">New</span>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single.html">Whirlpool 245</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$230.00</span>
-												<del>$280.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Whirlpool 245" />
-														<input type="hidden" name="amount" value="230.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="images/m8.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single.html">BPL Washing Machine</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$180.00</span>
-												<del>$200.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="BPL Washing Machine" />
-														<input type="hidden" name="amount" value="180.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4 product-men mt-5">
-									<div class="men-pro-item simpleCart_shelfItem">
-										<div class="men-thumb-item text-center">
-											<img src="images/m9.jpg" alt="">
-											<div class="men-cart-pro">
-												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
-												</div>
-											</div>
-										</div>
-										<div class="item-info-product text-center border-top mt-4">
-											<h4 class="pt-1">
-												<a href="single.html">Microwave Oven</a>
-											</h4>
-											<div class="info-product-price my-2">
-												<span class="item_price">$199.00</span>
-												<del>$299.00</del>
-											</div>
-											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart" />
-														<input type="hidden" name="add" value="1" />
-														<input type="hidden" name="business" value=" " />
-														<input type="hidden" name="item_name" value="Microwave Oven" />
-														<input type="hidden" name="amount" value="199.00" />
-														<input type="hidden" name="discount_amount" value="1.00" />
-														<input type="hidden" name="currency_code" value="USD" />
-														<input type="hidden" name="return" value=" " />
-														<input type="hidden" name="cancel_return" value=" " />
-														<input type="submit" name="submit" value="Add to cart" class="button btn" />
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- //fourth section -->
 					</div>
 				</div>
 				<!-- //product left -->
